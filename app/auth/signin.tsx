@@ -24,7 +24,7 @@ export default function LoginScreen() {
       });
       return;
     }
-    router.push("/user/dashboard");
+    router.push("/home");
     Toast.show({
       type: 'success',
       text1: 'Authenticated',
